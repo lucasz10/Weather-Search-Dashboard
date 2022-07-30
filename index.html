@@ -4,13 +4,112 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
         <title>Weather Report Dashboard</title>
 
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-            
+        <header class="bg-dark">
+            <div class="w-100 row justify-content-center text-white">
+                <p class="h1">Welcome to your Weather Dashboard!</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="card col-3" style="width: 18rem;">
+
+                    <div class="card-body"> <!-- Top of card for city search input -->
+                        <p class="card-title h5">Enter your city here:</p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" aria-label="City Search Input" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                        <a href="#" class="btn btn-primary">Search!</a>
+                    </div>
+
+                    <div class="card-header bg-dark"> <!-- Search History to include buttons -->
+                        <h3 class="card-title text-center text-white">History</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-9">
+
+                    <div class="card"> <!-- Card showing today's information -->
+                        <div class="card-header">
+                            <p class ="card-title h3">Enter a city to populate information below!</p>
+                        </div>
+                        <div class="card-body">
+                            <p>Temp:</p>
+                            <p>Wind:</p>
+                            <p>Humidity:</p>
+                            <p>UV Index:</p>
+                        </div>
+                    </div>
+
+                    <p class="h2 my-2">5-Day Forecast:</p>
+                    
+                    <div class="row my-3">
+                        <div class="card bg-dark mx-2">
+                            <p class="text-white">Date </p>
+                            <p class="text-white">Icon </p>
+                            <p class="text-white">Temp: </p>
+                            <p class="text-white">Wind: </p>
+                            <p class="text-white">Humidity: </p>
+                        </div>
+
+                        <div class="card bg-dark mx-2">
+                            <p class="text-white">Date </p>
+                            <p class="text-white">Icon </p>
+                            <p class="text-white">Temp: </p>
+                            <p class="text-white">Wind: </p>
+                            <p class="text-white">Humidity: </p>
+                        </div>
+
+                        <div class="card bg-dark mx-2">
+                            <p class="text-white">Date </p>
+                            <p class="text-white">Icon </p>
+                            <p class="text-white">Temp: </p>
+                            <p class="text-white">Wind: </p>
+                            <p class="text-white">Humidity: </p>
+                        </div>
+
+                        <div class="card bg-dark mx-2">
+                            <p class="text-white">Date </p>
+                            <p class="text-white">Icon </p>
+                            <p class="text-white">Temp: </p>
+                            <p class="text-white">Wind: </p>
+                            <p class="text-white">Humidity: </p>
+                        </div>
+
+                        <div class="card bg-dark mx-2">
+                            <p class="text-white">Date </p>
+                            <p class="text-white">Icon </p>
+                            <p class="text-white">Temp: </p>
+                            <p class="text-white">Wind: </p>
+                            <p class="text-white">Humidity: </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="./assets/js/script.js"></script>
     </body>
 </html>
