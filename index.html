@@ -25,31 +25,29 @@
                     <div class="card-body"> <!-- Top of card for city search input -->
                         <p class="card-title h5">Enter your city here:</p>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" aria-label="City Search Input" aria-describedby="inputGroup-sizing-default">
+                            <input type="text" class="form-control" id="cityInput">
                         </div>
-                        <a href="#" class="btn btn-primary">Search!</a>
+                        <a type="submit" class="btn btn-primary" id="searchBtn">Search!</a>
                     </div>
 
                     <div class="card-header bg-dark"> <!-- Search History to include buttons -->
                         <h3 class="card-title text-center text-white">History</h3>
                     </div>
                     <div class="card-body">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
+                        <ul class="list-group list-group-flush" id="searchHistory">
+                            
                         </ul>
                     </div>
 
                 </div>
 
-                <div class="col-9">
+                <div class="col-9" id="cityReport">
 
                     <div class="card"> <!-- Card showing today's information -->
                         <div class="card-header">
                             <p class ="card-title h3">Enter a city to populate information below!</p>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body" id="currentDay">
                             <p>Temp:</p>
                             <p>Wind:</p>
                             <p>Humidity:</p>
@@ -59,47 +57,9 @@
 
                     <p class="h2 my-2">5-Day Forecast:</p>
                     
-                    <div class="row my-3">
-                        <div class="card bg-dark mx-2">
-                            <p class="text-white">Date </p>
-                            <p class="text-white">Icon </p>
-                            <p class="text-white">Temp: </p>
-                            <p class="text-white">Wind: </p>
-                            <p class="text-white">Humidity: </p>
-                        </div>
-
-                        <div class="card bg-dark mx-2">
-                            <p class="text-white">Date </p>
-                            <p class="text-white">Icon </p>
-                            <p class="text-white">Temp: </p>
-                            <p class="text-white">Wind: </p>
-                            <p class="text-white">Humidity: </p>
-                        </div>
-
-                        <div class="card bg-dark mx-2">
-                            <p class="text-white">Date </p>
-                            <p class="text-white">Icon </p>
-                            <p class="text-white">Temp: </p>
-                            <p class="text-white">Wind: </p>
-                            <p class="text-white">Humidity: </p>
-                        </div>
-
-                        <div class="card bg-dark mx-2">
-                            <p class="text-white">Date </p>
-                            <p class="text-white">Icon </p>
-                            <p class="text-white">Temp: </p>
-                            <p class="text-white">Wind: </p>
-                            <p class="text-white">Humidity: </p>
-                        </div>
-
-                        <div class="card bg-dark mx-2">
-                            <p class="text-white">Date </p>
-                            <p class="text-white">Icon </p>
-                            <p class="text-white">Temp: </p>
-                            <p class="text-white">Wind: </p>
-                            <p class="text-white">Humidity: </p>
-                        </div>
+                    <div class="row my-3" id="5DayForecast">
                     </div>
+
                 </div>
 
             </div>
