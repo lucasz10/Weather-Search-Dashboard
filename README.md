@@ -25,4 +25,13 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
+## Functionality
 
+The application when loaded allows the user to input a city into the search field and get current weather information as well as an upcoming 
+5 day Forecast. The application will also story the user's recent history into their local storage to call on updated information.
+
+A link to the deployed application can be found at the following link:
+
+https://lucasz10.github.io/Weather-Search-Dashboard/
+
+![This is the current build from 8.2](./assets/images/_C__Users_Zach_Documents_Coding%2520Bootcamp_Weekly%2520Challenges_Weather-Search-Dashboard_index.html.png)
