@@ -1,6 +1,6 @@
 # Weather-Search-Dashboard
 
-Most Recent Edit Date: 7/26/22
+Most Recent Edit Date: 8/2/22
 
 ## User Story
 
