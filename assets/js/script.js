@@ -22,7 +22,7 @@ function formSearch() { //takes search input and gathers necessary information
     searchButtonCreate(); //Creates a button from previous entered text
 
     //Retrieves the latitude and longitude of the cityInput, only takes the first result
-    var geocodeCall = `http://api.openweathermap.org/geo/1.0/direct?q=${cityInput}&limit=1&appid=${apiKey}`
+    var geocodeCall = `https://api.openweathermap.org/geo/1.0/direct?q=${cityInput}&limit=1&appid=${apiKey}`
 
     fetch(geocodeCall)
     .then(function (response) {
